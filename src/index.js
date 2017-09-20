@@ -1,5 +1,6 @@
 import React from 'react'
 import JSONEditor from 'jsoneditor'
+import 'jsoneditor/dist/jsoneditor.min.css'
 
 class ReactJsoneditor extends React.Component {
   constructor(props) {
@@ -19,7 +20,6 @@ class ReactJsoneditor extends React.Component {
 
   componentDidMount() {
     this.options = {
-      search: false,
       onChange: () => {
         if (this.props.onChange) {
           let newValues = this.editor.get()
