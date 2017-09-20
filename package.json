@@ -1,12 +1,12 @@
 {
-  "name": "react-json-editor",
+  "name": "jsoneditor-for-react",
   "version": "0.0.1",
   "description": "React wrapper for josdejong/jsoneditor",
   "main": "dist/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mixj93/react-json-editor.git"
+    "url": "https://github.com/mixj93/jsoneditor-for-react.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

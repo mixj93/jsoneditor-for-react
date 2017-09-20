@@ -1,19 +1,20 @@
-# reeact-json-editor
+# jsoneditor-for-react
 
 React wrapper for [jsoneditor](https://github.com/josdejong/jsoneditor/)
+
 Also you can check the angular version: [angular-jsoneditor](https://github.com/isonet/angular-jsoneditor)
 
 ## Installation
 
-```
-npm install react-json-editor --save
+```bash
+npm install jsoneditor-for-react --save
 ```
 
 ## Usage
 
-```
+```jsx
 import React, { Component } from 'react';
-import ReactJsonEditor from 'react-json-editor';
+import ReactJsonEditor from 'jsoneditor-for-react';
 
 class App extends Component {
   ...
@@ -22,7 +23,7 @@ class App extends Component {
     console.log('new values', values)
     this.setState({values: values})
   }
-  
+
   render() {
     return (
       <div className="App">
