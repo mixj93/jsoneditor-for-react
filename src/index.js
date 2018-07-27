@@ -25,7 +25,8 @@ class ReactJsoneditor extends React.Component {
           let newValues = this.editor.get()
           this.props.onChange(newValues)
         }
-      }
+      },
+      ...this.props.options
     }
     this.editor = new JSONEditor(this.container, this.options)
     this.editor.set(this.props.values)
